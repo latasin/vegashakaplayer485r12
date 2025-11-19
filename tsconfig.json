@@ -1,0 +1,8 @@
+{
+    "extends": "@tsconfig/react-native/tsconfig.json",
+    "compilerOptions": {
+        "types": ["jest", "@amazon-devices/react-native-kepler"], 
+        "typeRoots": ["src/w3cmedia/shakaplayer" , "node_modules/@types"]/* Override "jest", "react-native" from @tsconfig/react-native */
+    },
+    "exclude": [ "src/shakaplayer/dist"]
+}
